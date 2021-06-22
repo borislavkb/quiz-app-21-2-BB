@@ -5,6 +5,8 @@
     background-color: red;
 }
 
+
+
 .container-nav {
     display: flex; 
     justify-content: space-around; 
@@ -12,6 +14,11 @@
     flex-direction: row; 
     background-color: yellow;
     padding: 10px 16px;
+}
+.Btns {
+    padding: 5px;
+    margin: 5px; 
+    font-size: 50px;
 }
 
 ul {
