@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+
 *,
 *::before,
 *::after {
@@ -7,8 +9,6 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   display: grid;
-  
-
 }
