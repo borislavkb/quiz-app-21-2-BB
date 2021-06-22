@@ -5,7 +5,11 @@
     background-color: red;
 }
 
-.footer {
+.container-nav {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    flex-direction: row; 
     background-color: yellow;
     padding: 10px 16px;
 }
@@ -16,6 +20,7 @@ ul {
 
 content {
     overflow-y: scroll;
+
 }
 
 
