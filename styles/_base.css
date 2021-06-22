@@ -8,4 +8,6 @@
 
 html {
   font-family: sans-serif;
+  display: grid;
+  
 }
