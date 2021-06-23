@@ -18,13 +18,19 @@ h1 {
   align-items: center;
   background-color: lightcoral;
   overflow-y: scroll;
+  height: 100vh;
 }
 
-.footer {
+.navbar {
   display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  flex-direction: row;
   align-items: center;
   bottom: 0;
   background-color: lightpink;
+}
+
+img {
+  height: 50px;
+  width: 50px;
 }
