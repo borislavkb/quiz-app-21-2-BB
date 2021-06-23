@@ -1,10 +1,16 @@
 @import "_base.css";
 
-body {
+.outer-grid {
   display: grid;
   grid-template-rows: 10vh auto 10vh;
   background-color: lightcoral;
   height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .AppName {
@@ -13,12 +19,11 @@ body {
 
 .content {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: lightcoral;
   overflow-y: scroll;
-  height: 100vh;
 }
 
 .navbar {
@@ -28,9 +33,21 @@ body {
   align-items: center;
   bottom: 0;
   background-color: lightpink;
+  position: fixed;
+  width: 100vw;
 }
 
 img {
   height: 50px;
   width: 50px;
+}
+
+.Card {
+  border: 2px solid black;
+  width: 80vw;
+  height: auto;
+}
+
+h2 {
+  border: 1px ridge yellow;
 }
