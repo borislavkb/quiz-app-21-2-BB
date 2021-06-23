@@ -1,62 +1,30 @@
 @import "_base.css";
 
-.header {
-  position: fixed;
+body {
+  background-color: lightcoral;
+}
+
+h1 {
+}
+
+.AppName {
+  background-color: red;
+}
+
+.content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  height: auto;
-  background-color: tomato;
-  color: greenyellow;
-  border-bottom: 1px solid red;
-}
-
-.container-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  padding: 10px 16px;
-}
-.Home,
-.Bookmarks,
-.Create,
-.Profile {
-  background-color: greenyellow;
-  color: black;
-  border: 1px solid blue;
-  border-radius: 50px;
-  padding: 1.5em;
-}
-
-ul {
-  list-style-type: none;
-}
-
-.container-box {
-  border: 2px soled red;
-  background-color: yellow;
-}
-.card-container {
-  display: grid;
-  justify-items: center;
-  background-color: khaki;
-  padding: 10px;
+  background-color: lightcoral;
   overflow-y: scroll;
 }
 
-#footer {
-  position: fixed;
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background-color: tomato;
-}
-
-@media only screen and (max-width: 375px) {
-  .content {
-    background-color: lightblue;
-  }
+  background-color: lightpink;
 }
