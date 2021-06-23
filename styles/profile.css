@@ -57,3 +57,20 @@ img.Profile-pic {
 .Log-Out {
   margin: 50px;
 }
+.Tags {
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+.Log-out-btn {
+  background-color: thistle;
+  border: 5px none goldenrod;
+  padding: 50px 50px;
+  border-radius: 25%;
+}
