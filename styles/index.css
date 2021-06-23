@@ -32,6 +32,10 @@
   gap: 5em;
 }
 
+.content {
+  display: flex;
+}
+
 .navbar {
   display: flex;
   justify-content: space-evenly;
