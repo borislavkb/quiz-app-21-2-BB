@@ -1,10 +1,10 @@
 @import "_base.css";
 
 body {
+  display: grid;
+  grid-template-rows: 10vh auto 10vh;
   background-color: lightcoral;
-}
-
-h1 {
+  height: 100vh;
 }
 
 .AppName {
