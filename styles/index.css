@@ -53,6 +53,10 @@ img {
 }
 
 .Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   border: 2px solid black;
   width: 80vw;
   height: auto;
@@ -81,13 +85,13 @@ li {
 }
 
 button {
-  height: 20px;
+  /* height: 20px;
   width: 100px;
   margin: -20px -50px;
   margin-top: 10px;
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 50%; */
 }
 
 .A38 {
@@ -98,7 +102,7 @@ button {
 
 #check {
   position: absolute;
-  left: 460px;
+  left: 500px;
   top: -30px;
 }
 
@@ -119,4 +123,14 @@ input[type="checkbox"]:checked {
 }
 input[type="checkbox"]:not(:checked) {
   background-image: url("/icons/bookmark.png");
+}
+
+@media screen {
+  max-width: 350px;
+}
+
+#check {
+  position: absolute;
+  left: 320px;
+  top: -30px;
 }
