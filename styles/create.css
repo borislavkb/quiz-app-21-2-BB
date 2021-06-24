@@ -1,0 +1,40 @@
+@import "_base.css";
+
+.outer-grid {
+  display: grid;
+  grid-template-rows: 10vh auto 10vh;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: lightgreen;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  padding: 1em;
+  gap: 5em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  bottom: 0;
+  background-color: lightgreen;
+  position: fixed;
+  width: 100vw;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
