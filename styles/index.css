@@ -61,6 +61,7 @@ img {
   width: 80vw;
   height: auto;
   position: relative;
+  background-color: ;
 }
 
 h2 {
@@ -102,7 +103,7 @@ button {
 
 #check {
   position: absolute;
-  left: 500px;
+  left: 90%;
   top: -30px;
 }
 
@@ -123,14 +124,4 @@ input[type="checkbox"]:checked {
 }
 input[type="checkbox"]:not(:checked) {
   background-image: url("/icons/bookmark.png");
-}
-
-@media screen {
-  max-width: 350px;
-}
-
-#check {
-  position: absolute;
-  left: 320px;
-  top: -30px;
 }
