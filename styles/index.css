@@ -1,1 +1,97 @@
-@import '_base.css';
+@import "_base.css";
+@import "_colors.css";
+
+.outer-grid {
+  display: grid;
+  grid-template-rows: 10vh auto 10vh;
+  /* background-color: lightcoral; */
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  right: 0;
+  width: 100%; */
+  background-color: var(--main-bg-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: none; */
+  /* margin-top: 10vh; */
+  overflow-y: scroll;
+  /* height: 100vh; */
+  padding: 1em;
+  gap: 5em;
+}
+
+.content {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  bottom: 0;
+  background-color: var(--main-bg-color);
+  position: fixed;
+  width: 100vw;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.Card {
+  border: 2px solid black;
+  width: 80vw;
+  height: auto;
+  position: relative;
+}
+
+h2 {
+}
+
+ul {
+  list-style-type: none;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: space-around;
+  gap: 1em;
+}
+
+li {
+  border: 2px solid green;
+  border-radius: 50%;
+  background-color: rgb(181, 127, 192);
+}
+
+button {
+  height: 20px;
+  width: 100px;
+  margin: -20px -50px;
+  margin-top: 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.A38 {
+  position: absolute;
+  left: 650px;
+  top: -25px;
+}
