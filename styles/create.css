@@ -14,7 +14,7 @@
   background-color: lightgreen;
 }
 
-.content {
+.Forms {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,4 +37,49 @@
 img {
   height: 50px;
   width: 50px;
+}
+
+/* text area */
+
+textarea {
+  background: center center no-repeat;
+  border: 1px solid gray;
+  background-color: lightgoldenrodyellow;
+  outline: none;
+  overflow: auto;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.Section-One,
+.Section-Two {
+  width: 55%;
+}
+
+#Tags-area {
+  background-color: gray;
+  width: 500px;
+  height: 50px;
+  color: whitesmoke;
+}
+
+.Submit-button {
+  border: 0;
+  border-radius: 0.25rem;
+  background: #1e88e5;
+  color: white;
+  font-family: -system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
 }

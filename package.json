@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app-21-2-bb",
+  "version": "1.0.0",
+  "description": "## Project Structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borislavkb/quiz-app-21-2-BB.git"
+  },
+  "author": "Borislav Borislavov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borislavkb/quiz-app-21-2-BB/issues"
+  },
+  "homepage": "https://github.com/borislavkb/quiz-app-21-2-BB#readme"
+}
