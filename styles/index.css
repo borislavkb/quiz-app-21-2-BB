@@ -58,11 +58,18 @@ img {
   justify-content: flex-start;
   align-items: center;
   border: 2px solid black;
-  width: 80vw;
+  width: 65vw;
   height: auto;
   position: relative;
   background-color: lightyellow;
   gap: 5em;
+}
+
+p,
+h1 {
+  padding: 15%;
+  -ms-text-size-adjust: auto;
+  text-align: justify;
 }
 
 h2 {

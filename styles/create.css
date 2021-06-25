@@ -61,6 +61,7 @@ textarea {
 .Section-Two,
 .Section-Tags {
   width: 55%;
+  text-align: center;
 }
 
 #Tags-area {
