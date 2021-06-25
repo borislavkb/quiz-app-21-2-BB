@@ -55,6 +55,22 @@ textarea {
   background-color: #f8f8f8;
   font-size: 16px;
   resize: none;
+  background-image: url("/icons/quiz-on-computer-with-question-signs-around.png");
+  background-size: contain;
+  background-position: right;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+textarea:focus {
+  background-color: indianred;
+  border: 5px solid red;
+  color: whitesmoke;
+}
+
+textarea:hover {
+  transform: scale(50px);
+  width: 300px;
+  height: 300px;
 }
 
 .Section-One,
