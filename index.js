@@ -1,4 +1,4 @@
-const buttonJS = document.querySelector(".card-button");
+const buttonJS = document.querySelectorAll(".card-button");
 
 const answer = document.querySelector(".Card-answer");
 
