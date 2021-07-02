@@ -1,0 +1,106 @@
+@import "_base.css";
+
+.outer-grid {
+  display: grid;
+  grid-template-rows: 10vh auto 10vh;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: lightgreen;
+}
+
+.Forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  padding: 1em;
+  gap: 5em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  bottom: 0;
+  background-color: lightgreen;
+  position: fixed;
+  width: 100vw;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+/* text area */
+
+textarea {
+  background: center center no-repeat;
+  border: 1px solid gray;
+  background-color: lightgoldenrodyellow;
+  outline: none;
+  overflow: auto;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  background-image: url("/icons/quiz-on-computer-with-question-signs-around.png");
+  background-size: contain;
+  background-position: right;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+textarea:focus {
+  background-color: indianred;
+  border: 5px solid red;
+  color: whitesmoke;
+}
+
+textarea:hover {
+  transform: scale(50px);
+  width: 300px;
+  height: 300px;
+}
+
+.Section-One,
+.Section-Two,
+.Section-Tags {
+  width: 55%;
+  text-align: center;
+}
+
+#Tags-area {
+  background-color: gray;
+  width: ;
+  height: 50px;
+  color: whitesmoke;
+}
+
+.Submit-button {
+  display: block;
+  align-self: center;
+  border: 0;
+  border-radius: 0.25rem;
+  background: #1e88e5;
+  color: white;
+  font-family: -system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 2rem;
+  margin: 1em auto;
+  cursor: pointer;
+  width: 75%;
+}
