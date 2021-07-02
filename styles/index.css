@@ -56,6 +56,10 @@ img {
   gap: 5em;
 }
 
+.Card-question {
+  padding: 2em;
+}
+
 p,
 h1 {
   padding: 2em;
