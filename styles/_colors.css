@@ -4,3 +4,7 @@
   --main-bg-color-02: lightblue;
   --main-bg-color-03: lightyellow;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;

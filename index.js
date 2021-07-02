@@ -12,3 +12,9 @@ for (let i = 0; i < buttonJS.length; i++) {
     }
   });
 }
+
+const buttonTheme = document.querySelector(".dark-theme-button");
+const body = document.querySelector(".outer-grid");
+buttonTheme.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+});
