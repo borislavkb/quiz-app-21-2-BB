@@ -38,6 +38,14 @@
   width: 100vw;
 }
 
+.Card-answer {
+  visibility: hidden;
+}
+
+.Card-answer_hidden {
+  visibility: hidden;
+}
+
 img {
   height: 50px;
   width: 50px;
