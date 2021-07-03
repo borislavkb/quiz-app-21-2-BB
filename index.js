@@ -15,6 +15,9 @@ for (let i = 0; i < buttonJS.length; i++) {
 
 const buttonTheme = document.querySelector(".dark-theme-button");
 const body = document.querySelector(".outer-grid");
+const navigation = document.querySelector(".navbar");
+
 buttonTheme.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
+  navigation.classList.toggle("dark-mode-nav");
 });
