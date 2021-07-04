@@ -23,10 +23,6 @@
   gap: 5em;
 }
 
-.content {
-  display: flex;
-}
-
 .navbar {
   display: flex;
   justify-content: space-evenly;
@@ -119,10 +115,10 @@ button {
   top: -25px;
 }
 
-#check {
+.bookmark {
   position: absolute;
-  left: 90%;
-  top: -30px;
+  left: 92%;
+  top: -20px;
 }
 
 /* checkbox */
@@ -138,8 +134,10 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  background-image: url("/icons/bookmark_red.png");
+  background-image: url("/icons/bookmark.png");
 }
 input[type="checkbox"]:not(:checked) {
   background-image: url("/icons/bookmark.png");
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
 }
