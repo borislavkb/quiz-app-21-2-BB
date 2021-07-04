@@ -57,7 +57,6 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid black;
   width: 65vw;
   height: auto;
   position: relative;
@@ -69,9 +68,8 @@ img {
   );
   gap: 5em;
   border-radius: 25px;
-  filter: drop-shadow(31px 22px 10px #000000);
-  -webkit-filter: drop-shadow(31px 22px 10px #000000);
-  -moz-filter: drop-shadow(31px 22px 10px #000000);
+  -webkit-box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
+  box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
 }
 
 p,
