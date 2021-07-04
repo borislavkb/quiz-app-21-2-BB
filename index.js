@@ -21,19 +21,3 @@ buttonTheme.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
   navigation.classList.toggle("dark-mode-nav");
 });
-
-const formCreate = document.querySelector(".Form_Question");
-
-formCreate.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const createQuestion = formCreate.question.value;
-  const createAnswer = formCreate.Answer.value;
-  const createTags = formCreate.Tags.value;
-
-  console.log(createQuestion);
-  console.log(createAnswer);
-  console.log(createTags);
-
-  formCreate.reset();
-});
