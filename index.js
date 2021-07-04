@@ -12,7 +12,7 @@ for (let i = 0; i < buttonJS.length; i++) {
     }
   });
 }
-
+// toggle dark theme
 const buttonTheme = document.querySelector(".dark-theme-switch");
 const body = document.querySelector(".outer-grid");
 const navigation = document.querySelector(".navbar");
