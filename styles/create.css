@@ -91,7 +91,6 @@ textarea:hover {
 
 #Tags-area {
   background-color: gray;
-  width: ;
   height: 50px;
   color: whitesmoke;
 }
@@ -112,4 +111,8 @@ textarea:hover {
   margin: 1em auto;
   cursor: pointer;
   width: 75%;
+}
+
+.fieldset {
+  border: 0;
 }

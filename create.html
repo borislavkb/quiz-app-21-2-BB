@@ -14,43 +14,28 @@
     </header>
 
     <main class="Forms">
-      <section class="Section-One">
-        <form class="Form_Question" action="" method="">
-          <div class="Form-Q">
-            <label for="Question">Enter your question:</label><br />
-            <textarea name="Question-" id="Question-area"></textarea>
-          </div>
-        </form>
-      </section>
+      <form class="Form_Question" action="" method=""></form>
+        <fieldset class="Section-One">
+        <label for="Question">Enter your question:</label><br />
+        <textarea name="Question-" id="Question-area"></textarea>
+        
+        </fieldset>
 
-      <section class="Section-Two">
-        <form class="Form-Answer" action="" method="">
-          <div class="Form-A">
-            <label for="Answer">Type your answer:</label><br />
+        <fieldset class="Section-Two">
+        <label for="Answer">Type your answer:</label><br />
+        <textarea name="Question-" id="Question-answer-area"></textarea>
+        </fieldset>
 
-            <textarea name="Question-" id="Question-area"></textarea>
-          </div>
-        </form>
-      </section>
-
-      <section class="Section-Tags">
-        <div class="Add-tags"></div>
-
-        <!--<input
-              type="text"
-              id="text_question"
-              placeholder="Type your question here"
-              maxlength="200"
-              size="50"
-            /> -->
-        <textarea name="Tags" id="Tags-area"></textarea>
-
-        <section class="Button">
+        <fieldset class="Section-Tags">
+        <label for="tags">Insert tags:</label>
+         <textarea name="Tags" id="Tags-area"></textarea>
+        
           <div class="Button-div">
-            <button class="Submit-button" onclick="">SUBMIT</button>
+            <button class="Submit-button" type="submit">SUBMIT</button>
           </div>
-        </section>
-      </section>
+        
+        </fieldset>
+      </form>
     </main>
 
     <footer class="footer">
@@ -77,5 +62,6 @@
         </div>
       </nav>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
