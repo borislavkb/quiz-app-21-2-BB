@@ -111,6 +111,7 @@ li {
   border: 2px solid green;
   border-radius: 75px;
   background-color: lightgrey;
+  padding: 1em;
 }
 
 button {
