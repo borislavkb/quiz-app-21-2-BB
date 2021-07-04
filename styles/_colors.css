@@ -8,6 +8,9 @@
 .dark-mode {
   background-color: black;
   color: white;
+  display: grid;
+  grid-template-rows: 10vh auto 10vh;
+  height: 100vh;
 }
 
 .dark-mode-nav {

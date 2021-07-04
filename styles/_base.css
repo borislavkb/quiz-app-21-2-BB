@@ -12,4 +12,9 @@ html {
   display: grid;
 }
 
+.active {
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap");

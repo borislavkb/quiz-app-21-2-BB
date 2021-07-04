@@ -12,7 +12,12 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  background-color: lightskyblue;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
 }
 
 .content {
@@ -30,7 +35,13 @@
   flex-direction: row;
   align-items: center;
   bottom: 0;
-  background-color: lightskyblue;
+  background: rgb(34, 193, 195);
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
   position: fixed;
   width: 100vw;
 }
