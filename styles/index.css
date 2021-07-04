@@ -63,9 +63,7 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid black;
   width: 65vw;
-  height: auto;
   position: relative;
   background: rgb(238, 174, 202);
   background: linear-gradient(
@@ -75,9 +73,8 @@ img {
   );
   border-radius: 25px;
   gap: 5em;
-  filter: drop-shadow(31px 22px 10px #000000);
-  -webkit-filter: drop-shadow(31px 22px 10px #000000);
-  -moz-filter: drop-shadow(31px 22px 10px #000000);
+  -webkit-box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
+  box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
 }
 
 .Card-question {
