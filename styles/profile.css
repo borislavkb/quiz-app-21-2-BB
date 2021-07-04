@@ -35,6 +35,7 @@
   flex-direction: row;
   align-items: center;
   bottom: 0;
+  padding: 5px;
   background: rgb(34, 193, 195);
   background: rgb(63, 94, 251);
   background: radial-gradient(

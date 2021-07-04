@@ -36,6 +36,7 @@
   align-items: center;
   bottom: 0;
   position: fixed;
+  padding: 5px;
   width: 100vw;
   background: rgb(77, 180, 58);
   background: linear-gradient(
@@ -56,14 +57,23 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid pink;
-  border-radius: 5px;
+  border: 2px solid black;
   width: 65vw;
   height: auto;
   position: relative;
-  background-color: lightyellow;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 2%,
+    rgba(148, 187, 233, 1) 91%
+  );
   gap: 5em;
+  border-radius: 25px;
+  filter: drop-shadow(31px 22px 10px #000000);
+  -webkit-filter: drop-shadow(31px 22px 10px #000000);
+  -moz-filter: drop-shadow(31px 22px 10px #000000);
 }
+
 p,
 h1 {
   padding: 30px;
