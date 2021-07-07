@@ -1,3 +1,6 @@
+import * as myDB from "./lib/db.js";
+import { createCardComponent } from "./lib/card.js";
+
 const cardAnswer = document.querySelectorAll(".Card-answer");
 
 const buttonShow = document.querySelectorAll("button");
