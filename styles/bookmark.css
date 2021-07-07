@@ -11,7 +11,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--main-bg-color-03);
+  background: rgb(77, 180, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 180, 58, 1) 0%,
+    rgba(253, 195, 29, 1) 48%,
+    rgba(252, 69, 180, 1) 100%
+  );
 }
 
 .content {
@@ -29,9 +35,16 @@
   flex-direction: row;
   align-items: center;
   bottom: 0;
-  background-color: var(--main-bg-color-03);
   position: fixed;
+  padding: 5px;
   width: 100vw;
+  background: rgb(77, 180, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 180, 58, 1) 0%,
+    rgba(253, 195, 29, 1) 48%,
+    rgba(252, 69, 180, 1) 100%
+  );
 }
 
 img {
@@ -44,14 +57,21 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid pink;
-  border-radius: 5px;
   width: 65vw;
   height: auto;
   position: relative;
-  background-color: lightyellow;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 2%,
+    rgba(148, 187, 233, 1) 91%
+  );
   gap: 5em;
+  border-radius: 25px;
+  -webkit-box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
+  box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
 }
+
 p,
 h1 {
   padding: 30px;
@@ -81,28 +101,34 @@ li {
   border: 2px solid green;
   border-radius: 75px;
   background-color: lightgrey;
+  padding: 1em;
 }
 
 button {
-  /* height: 20px;
-  width: 100px;
+  display: inline-block;
   margin: -20px -50px;
   margin-top: 10px;
-  position: relative;
   top: 50%;
-  left: 50%; */
+  left: 50%;
+  background-color: var(--main-bg-color-02);
+  border-radius: 5px;
+  padding: 20px;
+  white-space: nowrap;
+  box-shadow: none;
 }
 
-.A38 {
-  position: absolute;
-  left: 650px;
-  top: -25px;
+.Card-answer {
+  visibility: visiblex;
 }
 
-#check {
+.Card-answer_hidden {
+  visibility: hidden;
+}
+
+.bookmark {
   position: absolute;
-  left: 90%;
-  top: -30px;
+  left: 92%;
+  top: -20px;
 }
 
 /* checkbox */

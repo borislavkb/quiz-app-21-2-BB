@@ -4,3 +4,16 @@
   --main-bg-color-02: lightblue;
   --main-bg-color-03: lightyellow;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-rows: 10vh auto 10vh;
+  height: 100vh;
+}
+
+.dark-mode-nav {
+  background-color: darkgoldenrod;
+  color: whitesmoke;
+}

@@ -4,11 +4,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Noto Serif", serif;
 }
 
 html {
   font-family: monospace;
   display: grid;
+}
+
+.active {
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap");

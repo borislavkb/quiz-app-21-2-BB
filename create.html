@@ -13,50 +13,41 @@
       <h1 class="header_title">Create Cards</h1>
     </header>
 
-    <main class="Forms">
-      <section class="Section-One">
+    <main class="content">
+      <div class="form-box">
         <form class="Form_Question" action="" method="">
-          <div class="Form-Q">
+          <fieldset class="Section-One">
             <label for="Question">Enter your question:</label><br />
-            <textarea name="Question-" id="Question-area"></textarea>
-          </div>
-        </form>
-      </section>
+            <input
+              class="create-card"
+              type="textarea"
+              name="Question"
+              id="Question-area"
+            />
+          </fieldset>
 
-      <section class="Section-Two">
-        <form class="Form-Answer" action="" method="">
-          <div class="Form-A">
+          <fieldset class="Section-Two">
             <label for="Answer">Type your answer:</label><br />
-            <!--<input
-              type="text"
-              id="text_question"
-              placeholder="Type your question here"
-              maxlength="200"
-              size="50"
-            /> -->
-            <textarea name="Question-" id="Question-area"></textarea>
-          </div>
+            <input
+              class="create-card"
+              type="textarea"
+              name="Answer"
+              id="Question-answer-area"
+            />
+          </fieldset>
+
+          <fieldset class="Section-Tags">
+            <label for="tags">Insert tags:</label>
+            <input
+              class="create-card"
+              type="textarea"
+              name="Tags"
+              id="Tags-area"
+            />
+            <button class="Submit-button" type="submit">SUBMIT</button>
+          </fieldset>
         </form>
-      </section>
-
-      <section class="Section-Tags">
-        <div class="Add-tags"></div>
-
-        <!--<input
-              type="text"
-              id="text_question"
-              placeholder="Type your question here"
-              maxlength="200"
-              size="50"
-            /> -->
-        <textarea name="Tags" id="Tags-area"></textarea>
-
-        <section class="Button">
-          <div class="Button-div">
-            <button class="Submit-button" onclick="">SUBMIT</button>
-          </div>
-        </section>
-      </section>
+      </div>
     </main>
 
     <footer class="footer">
@@ -72,7 +63,7 @@
           </a>
         </div>
         <div>
-          <a class="navbar-item" href="create.html">
+          <a class="navbar-item active" href="create.html">
             <img src="icons/pen.png" alt="Pen icon" />
           </a>
         </div>
@@ -83,5 +74,6 @@
         </div>
       </nav>
     </footer>
+    <script src="create.js"></script>
   </body>
 </html>

@@ -11,7 +11,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--main-bg-color);
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
 }
 
 .content {
@@ -23,19 +28,29 @@
   gap: 5em;
 }
 
-.content {
-  display: flex;
-}
-
 .navbar {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
   bottom: 0;
-  background-color: var(--main-bg-color);
   position: fixed;
+  padding: 5px;
   width: 100vw;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.Card-answer {
+  visibility: visible;
+}
+
+.Card-answer_hidden {
+  visibility: hidden;
 }
 
 img {
@@ -48,22 +63,29 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 2px solid black;
   width: 65vw;
-  height: auto;
   position: relative;
-  background-color: lightyellow;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 2%,
+    rgba(148, 187, 233, 1) 91%
+  );
+  border-radius: 25px;
   gap: 5em;
+  -webkit-box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
+  box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
+}
+
+.Card-question {
+  padding: 2em;
 }
 
 p,
 h1 {
-  padding: 2em;
+  padding: 30px;
   text-align: justify;
   padding-top: 1em;
-}
-
-h2 {
 }
 
 ul {
@@ -89,10 +111,11 @@ li {
   border: 2px solid green;
   border-radius: 75px;
   background-color: lightgrey;
+  padding: 1em;
 }
 
 button {
-  display: block;
+  display: inline-block;
   margin: -20px -50px;
   margin-top: 10px;
   top: 50%;
@@ -104,16 +127,15 @@ button {
   box-shadow: none;
 }
 
-.A38 {
+.bookmark {
   position: absolute;
-  left: 650px;
-  top: -25px;
+  left: 92%;
+  top: -20px;
 }
 
-#check {
-  position: absolute;
-  left: 90%;
-  top: -30px;
+.navbar-item:hover {
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
 }
 
 /* checkbox */
@@ -129,8 +151,15 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  background-image: url("/icons/bookmark_red.png");
+  background-image: url("/icons/bookmark.png");
 }
 input[type="checkbox"]:not(:checked) {
   background-image: url("/icons/bookmark.png");
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
+}
+
+.active {
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
 }

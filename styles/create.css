@@ -11,16 +11,27 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: lightgreen;
+  background: rgb(77, 180, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 180, 58, 1) 0%,
+    rgba(253, 195, 29, 1) 48%,
+    rgba(252, 69, 180, 1) 100%
+  );
 }
 
-.Forms {
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow-y: scroll;
-  padding: 1em;
-  gap: 5em;
+}
+
+.form-box {
+  display: inline-block;
+  text-align: center;
+  width: 60%;
+  margin-top: 3em;
 }
 
 .navbar {
@@ -29,9 +40,16 @@
   flex-direction: row;
   align-items: center;
   bottom: 0;
-  background-color: lightgreen;
   position: fixed;
+  padding: 5px;
   width: 100vw;
+  background: rgb(77, 180, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 180, 58, 1) 0%,
+    rgba(253, 195, 29, 1) 48%,
+    rgba(252, 69, 180, 1) 100%
+  );
 }
 
 img {
@@ -40,32 +58,6 @@ img {
 }
 
 /* text area */
-
-textarea {
-  background: center center no-repeat;
-  border: 1px solid gray;
-  background-color: lightgoldenrodyellow;
-  outline: none;
-  overflow: auto;
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-  background-image: url("/icons/quiz-on-computer-with-question-signs-around.png");
-  background-size: contain;
-  background-position: right;
-  transition: width 1s, height 1s, transform 1s;
-}
-
-textarea:focus {
-  background-color: indianred;
-  border: 5px solid red;
-  color: whitesmoke;
-}
 
 textarea:hover {
   transform: scale(50px);
@@ -76,13 +68,12 @@ textarea:hover {
 .Section-One,
 .Section-Two,
 .Section-Tags {
-  width: 55%;
+  /* width: 55%; */
   text-align: center;
 }
 
 #Tags-area {
   background-color: gray;
-  width: ;
   height: 50px;
   color: whitesmoke;
 }
@@ -103,4 +94,36 @@ textarea:hover {
   margin: 1em auto;
   cursor: pointer;
   width: 75%;
+}
+
+.create-card {
+  background: center center no-repeat;
+  border: 1px solid gray;
+  background-color: lightgoldenrodyellow;
+  outline: none;
+  overflow: auto;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  background-image: url("/icons/quiz-on-computer-with-question-signs-around.png");
+  background-size: contain;
+  background-position: right;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.create-card:hover {
+  transform: scale(50px);
+  width: 300px;
+  height: 300px;
+}
+
+.create-card:focus {
+  background-color: indianred;
+  border: 5px solid red;
+  color: whitesmoke;
 }
