@@ -1,8 +1,19 @@
-import * as myDB from "./lib/db.js";
+import { data } from "./lib/db.js";
 import { createCardComponent } from "./lib/card.js";
 
-const cardAnswer = document.querySelectorAll(".Card-answer");
+/* Render cards coming from the data */
+const cardComponents = [];
+data.forEach((cardData) => {
+  const cardComponent = createCardComponent(cardData);
+  cardComponents.push(cardComponent);
+});
+// Apend to content element
+const contentElement = document.querySelector(".content");
+cardComponents.forEach((cardComponent) => {
+  contentElement.append(cardComponent);
+});
 
+const cardAnswer = document.querySelectorAll(".Card-answer");
 const buttonShow = document.querySelectorAll("button");
 
 for (let b = 0; b < buttonShow.length; b++) {
