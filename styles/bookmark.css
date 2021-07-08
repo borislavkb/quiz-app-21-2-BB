@@ -72,11 +72,14 @@ img {
   box-shadow: 7px 9px 15px -3px rgba(255, 136, 27, 0.77);
 }
 
-p,
 h1 {
   padding: 30px;
   -ms-text-size-adjust: auto;
   text-align: justify;
+  font-size: 0vmax;
+}
+p {
+  font-size: 22px;
 }
 
 h2 {
@@ -118,7 +121,7 @@ button {
 }
 
 .Card-answer {
-  visibility: visiblex;
+  visibility: visible;
 }
 
 .Card-answer_hidden {
